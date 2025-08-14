@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/newbg"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_marginTop="60sp"
+        android:layout_width="wrap_content"
+        android:layout_height="200sp"
+        android:src="@drawable/chefveg"
+        android:layout_marginRight="230sp"/>
+    <ImageView
+        android:id="@+id/profileIcon"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="350sp"
+        android:src="@drawable/profile"
+        android:contentDescription="Profile" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Let's start 😃🧑‍🍳👨‍🍳"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        android:textSize="30sp"/>
+
+
+    <LinearLayout
+        android:padding="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15sp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="180sp"
+            android:layout_height="130sp"
+            android:layout_weight="1"
+            android:backgroundTint="#FF9800"
+            android:text="Vegetables🍅🍆🫑🥔"
+            android:textColor="#111213"
+            android:id="@+id/veg"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="180sp"
+            android:layout_height="130sp"
+            android:layout_weight="1"
+            android:backgroundTint="#FF3021"
+            android:text="Fruits🍉🍋🥭🍏🍇"
+            android:id="@+id/fru"
+            android:textColor="#0B0A0A"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/cheffruit"
+        android:layout_marginLeft="250sp"
+        android:layout_width="wrap_content"
+        android:layout_height="200sp"
+        android:src="@drawable/cheffruit"/>
+
+
+
+</LinearLayout>

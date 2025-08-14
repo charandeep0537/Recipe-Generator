@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecipeActivity"
+    android:background="@drawable/vege"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_gravity="center"
+        android:id="@+id/recipeImage"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90sp"
+        android:scaleType="centerCrop"
+        android:background="@android:color/white"
+        android:elevation="4sp" />
+    <TextView
+        android:layout_marginTop="20sp"
+        android:id="@+id/recipeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loading recipe..."
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:padding="10sp"
+        android:layout_alignParentTop="true"
+        android:scrollbars="vertical"/>
+        <TextView
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/recipeInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recipe instructions will appear here."
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:lineSpacingExtra="4sp" />
+
+</LinearLayout>
+
+
+
+
+
+</ScrollView>

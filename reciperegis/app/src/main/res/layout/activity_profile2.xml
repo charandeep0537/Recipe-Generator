@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rbg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_marginTop="30sp"
+        android:layout_gravity="center"
+        android:id="@+id/profileImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/profile1"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="50sp"
+        android:id="@+id/userEmail"
+        android:text="Email"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:backgroundTint="#236A26"
+        android:id="@+id/postButton"
+        android:textColor="#FFF3CF"
+        android:text="Post Recipe"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40sp"
+        android:layout_width="200sp"
+        android:layout_height="70sp"/>
+    <Button
+        android:layout_gravity="center"
+        android:backgroundTint="#236A26"
+        android:id="@+id/communityButton"
+        android:textColor="#FFF3CF"
+        android:text="CommunityFeed"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30sp"
+        android:layout_width="200sp"
+        android:layout_height="70sp"/>
+    <Button
+        android:layout_gravity="center"
+        android:backgroundTint="#BF1205"
+        android:id="@+id/logoutButton"
+        android:textColor="#FFF3CF"
+        android:text="Logout"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30sp"
+        android:layout_width="150sp"
+        android:layout_height="70sp"/>
+</LinearLayout>

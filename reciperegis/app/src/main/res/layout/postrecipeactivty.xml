@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/newbg"
+    android:padding="16dp">
+
+    <EditText
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="130sp"
+        android:id="@+id/recipeTitle"
+        android:textColorHint="#FFF6DA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Recipe Title"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/recipeContent"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:hint="Write your recipe here..."
+        android:gravity="top"
+        android:textColor="#FFF6DA"
+        android:textColorHint="#FFF6DA"
+        android:inputType="textMultiLine"
+        android:textSize="16sp"
+        android:layout_marginTop="12sp" />
+
+    <Button
+        android:backgroundTint="#FF1100"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:id="@+id/postButton"
+        android:layout_width="200sp"
+        android:layout_height="60sp"
+        android:text="Post Recipe"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="70sp" />
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/vege"
+        tools:context=".vegeActivity2">
+    <TextView
+        android:id="@+id/recipeView"
+        android:layout_marginTop="200sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Let's do some kitchen magic"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:fontFamily="casual"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="60sp">
+    <EditText
+        android:id="@+id/e1"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160sp"
+        android:layout_marginLeft="50sp"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:hint="What are you craving for?🔍"
+        android:textColorHint="#4E4D4D"
+        android:background="@drawable/editbox"
+        />
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btngen"
+        android:layout_width="150sp"
+        android:layout_height="50sp"
+        android:text="Generate"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="125sp"
+        android:backgroundTint="#F8511C"/>
+    <Button
+        android:layout_marginLeft="125sp"
+        android:gravity="center"
+        android:backgroundTint="#F8511C"
+        android:id="@+id/btnSupercook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try SuperCook"
+        android:layout_below="@+id/btngen"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_marginTop="75sp"
+        android:id="@+id/marquee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal"
+        android:text="Tip: If you didn’t get a recipe using “Generate,” try “SuperCook” for more ideas based on your ingredients"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:fontFamily="cursive"
+        android:textSize="15sp"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:scrollHorizontally="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+
+
+</LinearLayout>
+
+
